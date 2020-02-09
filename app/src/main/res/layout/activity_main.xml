@@ -20,12 +20,22 @@
             android:contentDescription="TODO" />
 
     </RelativeLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:background="#acab"
+        android:text="Podwójna hawajska dla każdego" />
+
     <Button
         android:id="@+id/przycisk"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.5"
+        android:layout_weight="0.25"
         android:background="#abcabc"
         android:text="@string/play" />
+
+
     />
 </LinearLayout>
